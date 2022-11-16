@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background-color: cadetblue;
+  
+  }
+  #contenedor{
+    width: 1024px;
+    height: 1400px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.1);
+  }
+   h1{
+      font-family: 'Lato', sans-serif;
+      padding-top: 30px;
+      padding-bottom: 0px;
+      border-bottom: 2px solid aliceblue;
+      color: aliceblue;
+      margin: 0 40px;
+  }
+  
+  /*Formulario*/
+  
+  form{
+    border-radius:10px;
+    margin: 50px auto;
+    width: 600px;
+    height: auto;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+   
+  }
+  label{
+    font-size:18px;
+  }
+  input, #contacto, #mensaje{
+    width: 500px;
+    height: 40px;
+    border-radius:10px;
+    padding-left: 10px;
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid lightblue;
+    background-color: rgba(255,255,255,0.9);
+    margin-left: 45px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  input:focus{
+    background-color: aliceblue;
+  }
+  
+  /*Género*/
+  .genero{
+      width: 200px;
+      height: 40px;
+      margin: 10px;
+  }
+  .genero input{
+      width: 20px;
+      height: 20px;
+  }
+  #genero div label{
+     margin-left: 10px;
+  }
+  
+  /*Información*/
+  #informacion{
+      border-radius:10px;
+      margin: 0;  
+      display: flex;
+      flex-direction: row;
+  }
+  #informacion div{
+      width: 200px;
+      height: 40px;
+      display: inline-block;
+      margin: 5px;
+  }
+  #informacion div input{
+      width: 20px;
+      height: 20px;
+  }
+  
+  #mensaje{
+    height: 200px;
+    padding-top: 15px;
+  }
+  select{
+    width: 500px;
+    height: 40px;
+    border-radius:10px;
+    padding-left: 10px;
+    font-size:14px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /*Botón de enviar*/
+  #enviar{
+    font-size:20px;
+    height: 50px;
+    width: 250px;
+    margin:20px 0px;
+    background-color: yellow;
+    color: #000;
+  }
+  #enviar:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: yellow;
+  }
